@@ -1,0 +1,41 @@
+.topo{
+    width: 100%;
+    background: #444343;
+    border-bottom: 1px solid #42C920;
+}
+.topo_container{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 10px 0; 
+}
+.titulo_container h1{
+    color: #42C920;
+}
+.link_container a{
+    color: #42C920;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.link_container a:hover{
+    border: 1px solid #42C920;
+    text-shadow: 0 0 20px #42C920;
+    border-radius: 10px;
+}
+.btn_container button{
+    background-color: #444343;
+    border: 1px solid #ccc;
+    color: #ccc;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn_container button:hover{
+    background-color: #444343;
+    border: 1px solid #42C920;
+    color: #42C920;
+    padding: 5px;
+    text-shadow: 0 0 20px #42C920;
+    cursor: pointer;
+}

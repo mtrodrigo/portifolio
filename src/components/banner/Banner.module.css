@@ -1,0 +1,30 @@
+.banner{
+    height: 100vh;
+    background: url('/img/matrix.gif');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #42C920;
+}
+.texto_container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #42c9204d;
+    color: #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0;
+    transition: 1s;
+}
+.texto_container:hover{
+    scale: 1.2;
+}
+.texto_container h1{
+    font-size: 50px;
+}
+.texto_container h3{
+    font-size: 30px;
+}
