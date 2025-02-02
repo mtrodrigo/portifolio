@@ -1,6 +1,8 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
+
 import styles from './Rodape.module.css'
 
 function Rodape() {
@@ -14,6 +16,7 @@ function Rodape() {
             <span><CiLinkedin/></span><a href="https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/" target="_blanck">Linkedin</a>
             <span><FaWhatsapp/></span><a href="https://wa.me/5535984061841" target="_blanck">WhatsApp</a>
             <span><MdOutlineEmail/></span><a href="mailto:rodrigour@gmail.com" target="_blanck">Email</a>
+            <span><FaGithub/></span><a href="https://github.com/mtrodrigo" target="_blanck">GitHub</a>
         </section>
         <section className={styles.tecno_container}>
             <div className={styles.tecno_text}>
