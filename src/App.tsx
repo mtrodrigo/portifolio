@@ -3,6 +3,7 @@ import Banner from './components/banner/Banner'
 import './App.css'
 import Sobre from './components/sobre/Sobre'
 import Projetos from './components/projetos/Projetos'
+import Rodape from './components/rodape/Rodape'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
         <Sobre/>
         <Projetos/>
       </main>
+        <Rodape/>
     </>
   )
 }

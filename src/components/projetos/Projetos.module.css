@@ -58,3 +58,11 @@
     margin: 0 10px;
     padding: 5px 10px;
 }
+@media (max-width: 450px) {
+    .carrocel_container{
+        flex-wrap: wrap;
+    }
+    .scroll button{
+        display: none;
+    }
+}

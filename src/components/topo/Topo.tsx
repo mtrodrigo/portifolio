@@ -12,10 +12,8 @@ function Topo() {
                 <a href='#sobre'>Sobre</a>
                 <a href='#projetos'>Projetos</a>
                 <a href='#contato'>Contato</a>
+                <a href='/downloads/Curricilo-RodrigoMarquesTavares.pdf' target='_blanck'>Currículo</a>
             </nav>
-            <div className={styles.btn_container}>
-                <button>pt-BR</button>
-            </div>
         </section>
       </header>
     )
