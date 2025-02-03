@@ -14,6 +14,7 @@
 .links_container{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .links_container span{
     margin: 5px 3px 0 30px;
@@ -48,10 +49,7 @@
     color: #42C920;
     padding-bottom: 10px;
 }
-@media (max-width: 450px) {
-    .criador{
-        font-size: 20px;
-    }
+@media (max-width: 450px) {  
     .tecno_img img{
         width: 30px;
     }

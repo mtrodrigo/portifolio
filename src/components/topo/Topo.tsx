@@ -12,7 +12,7 @@ function Topo() {
                 <a href='#sobre'>Sobre</a>
                 <a href='#projetos'>Projetos</a>
                 <a href='#contato'>Contato</a>
-                <a href='/downloads/Curricilo-RodrigoMarquesTavares.pdf' target='_blanck'>Currículo</a>
+                <a href='/document/Curricilo-RodrigoMarquesTavares.pdf' target='_blanck'>Currículo</a>
             </nav>
         </section>
       </header>

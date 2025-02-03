@@ -34,7 +34,8 @@ function Rodape() {
             </div>    
         </section>
         <section className={styles.criador}>
-            <p>© 2025 - Todos os direitos reservados - Rodrigo Marques Tavares</p>
+            <p>© 2025 - Todos os direitos reservados</p>
+            <p>Criado por <strong>Rodrigo Marques Tavares</strong></p>
         </section>
       </footer>
     )
