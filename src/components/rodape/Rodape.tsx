@@ -13,10 +13,10 @@ function Rodape() {
             <h2>Contatos</h2>
         </section>
         <section className={styles.links_container}>
-            <span><CiLinkedin/></span><a href="https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/" target="_blanck">Linkedin</a>
-            <span><FaWhatsapp/></span><a href="https://wa.me/5535984061841" target="_blanck">WhatsApp</a>
-            <span><MdOutlineEmail/></span><a href="mailto:rodrigour@gmail.com" target="_blanck">Email</a>
-            <span><FaGithub/></span><a href="https://github.com/mtrodrigo" target="_blanck">GitHub</a>
+            <a href="https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/" target="_blanck"><span><CiLinkedin/></span>Linkedin</a>
+            <a href="https://wa.me/5535984061841" target="_blanck"><span><FaWhatsapp/></span>WhatsApp</a>
+            <a href="mailto:rodrigour@gmail.com" target="_blanck"> <span><MdOutlineEmail/></span>Email</a>
+            <a href="https://github.com/mtrodrigo" target="_blanck"><span><FaGithub/></span>GitHub</a>
         </section>
         <section className={styles.tecno_container}>
             <div className={styles.tecno_text}>
