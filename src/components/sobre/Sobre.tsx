@@ -2,13 +2,6 @@ import ImgSobre from '/img/rodrigo.png'
 import style from './Sobre.module.css'
 
 function Sobre() {
-    const anoAniversario = 1985;
-    const anoTrabalho = 2012; 
-    const data = new Date()
-    const idade = data.getFullYear() - anoAniversario;
-    const trabalho = data.getFullYear() - anoTrabalho
-
-
     return (
       <>
         <section className={style.sobre}>
@@ -19,18 +12,21 @@ function Sobre() {
                         <img src={ImgSobre} alt="" />
                     </div>
                     <div className={style.text_container}>
-                        <p>Olá sou Rodrigo, tenho {idade} anos, sou formado em farmácia desde 2012, 
-                            trabalhei como gestor farmaceutico por {trabalho} anos e 
-                            desde janeiro de 2023 estou estudadando programação para transição de carreira.
-                            Tenho como hobby fazer trilha de moto nos fins de semana.
-                        </p>
-                        <p>Fiz curso de iniciação de Front-End e JavaScript pela Trybe, curso de Desenvolvimento Web 
-                            (HTML 5, CSS 3, Bootstrap e JavaScript) ministrado Jorge Sant Anna e Jamilton Damasceno, curso de Front-End
-                            pela DevMedia (HTML 5, CSS 3,  JavaScript, React e API) e curso pela Udemy o 
-                            curso de React avançado com TypeScript ministrado por Mathaus Fraga. 
+                        <p>
+                            Olá! Sou Rodrigo, um desenvolvedor web em transição de carreira. Tenho 39 anos e sou formado
+                            em farmácia desde 2012, onde atuei como gestor farmacêutico por 13 anos. Desde janeiro de 2023,
+                            decidi seguir meu sonho na área de programação e estou me dedicando a essa nova jornada.
                         </p>
                         <p>
-                            Atualmente estou a procura de uma vaga como <strong>React JS Developer</strong>
+                            Para me preparar, completei diversos cursos, incluindo iniciação em Front-End e JavaScript pela
+                             Trybe, Desenvolvimento Web (HTML 5, CSS 3, Bootstrap e JavaScript) com Jorge Sant Anna e Jamilton
+                              Damasceno, além de um curso de Front-End pela DevMedia, que abrange HTML 5, CSS 3, JavaScript, 
+                              React e API. Recentemente, também finalizei um curso avançado de React com TypeScript na Udemy,
+                               ministrado por Mathaus Fraga.
+  
+                        </p>
+                        <p>
+                        Estou animado para aplicar minhas habilidades em projetos desafiadores e contribuir para o mundo da tecnologia!
                         </p>
                     </div>
                 </div> 
