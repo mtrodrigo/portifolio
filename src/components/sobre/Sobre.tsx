@@ -14,15 +14,15 @@ function Sobre() {
                     <div className={style.text_container}>
                         <p>
                             Olá! Sou Rodrigo, um desenvolvedor web em transição de carreira. Tenho 39 anos e sou formado
-                            em farmácia desde 2012, onde atuei como gestor farmacêutico por 13 anos. Desde janeiro de 2023,
+                            em farmácia desde 2012, onde atuei como gestor farmacêutico por 13 anos. Desde janeiro de 2024,
                             decidi seguir meu sonho na área de programação e estou me dedicando a essa nova jornada.
                         </p>
                         <p>
-                            Para me preparar, completei diversos cursos, incluindo iniciação em Front-End e JavaScript pela
-                             Trybe, Desenvolvimento Web (HTML 5, CSS 3, Bootstrap e JavaScript) com Jorge Sant Anna e Jamilton
-                              Damasceno, além de um curso de Front-End pela DevMedia, que abrange HTML 5, CSS 3, JavaScript, 
-                              React e API. Recentemente, também finalizei um curso avançado de React com TypeScript na Udemy,
-                               ministrado por Mathaus Fraga.
+                            Para me preparar, completei diversos cursos, incluindo iniciação em Front-End e JavaScript pela 
+                            Trybe, Desenvolvimento Web (HTML 5, CSS 3, Bootstrap e JavaScript) com Jorge Sant Anna e Jamilton 
+                            Damasceno, além de um curso de Front-End pela DevMedia, que abrange HTML 5, CSS 3, JavaScript, 
+                            React e API. Recentemente, também finalizei um curso avançado de React com TypeScript na Udemy, 
+                            ministrado por Mathaus Fraga.
   
                         </p>
                         <p>
