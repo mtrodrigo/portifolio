@@ -5,11 +5,18 @@ import Calculadora from '/img/calculadora.png'
 import Frases from '/img/frases.png'
 import Idade from '/img/idade.png'
 import Cripto from '/img/cripto.png'
+import Gerenciador from '/img/gerenciador.png'
 
 const colProjetos = [
     {
+        nome: "Gerenciador de Redes Sociais", 
+        site: "https://gerenciador-rc.vercel.app/", 
+        codigo: "https://github.com/mtrodrigo/gerenciador-rc.git",
+        image: Gerenciador, 
+        descricao: "Projeto desenvolvido e React + TypeScript gerenciando redes sociais, autenticação com senha e bancondo de dados atravez do FireBase."},
+    {
         nome: "Cripto App", 
-        site: "https://cripto-app-nine.vercel.app//", 
+        site: "https://cripto-app-nine.vercel.app/", 
         codigo: "https://github.com/mtrodrigo/criptoApp.git",
         image: Cripto, 
         descricao: "Projeto desenvolvido e React + TypeScript que exibe as cripto moedas e suas informações em tempo real atravez de uma API."},
