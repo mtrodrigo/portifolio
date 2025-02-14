@@ -6,8 +6,15 @@ import Frases from '/img/frases.png'
 import Idade from '/img/idade.png'
 import Cripto from '/img/cripto.png'
 import Gerenciador from '/img/gerenciador.png'
+import Shop from '/img/shop.png'
 
 const colProjetos = [
+    {
+        nome: "Shop", 
+        site: "https://shop-delta-sandy.vercel.app/", 
+        codigo: "https://github.com/mtrodrigo/shop.git",
+        image: Shop, 
+        descricao: "Projeto React + TypeScript que simula um e-comerce com consumo de API, uso de hooks useContext, useState e useEffect, e roteamento com react-router-dom."},
     {
         nome: "Gerenciador de Redes Sociais", 
         site: "https://gerenciador-rc.vercel.app/", 

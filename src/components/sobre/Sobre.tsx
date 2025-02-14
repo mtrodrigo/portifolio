@@ -22,7 +22,7 @@ function Sobre() {
                             Trybe, Desenvolvimento Web (HTML 5, CSS 3, Bootstrap e JavaScript) com Jorge Sant Anna e Jamilton 
                             Damasceno, além do curso de Front-End pela DevMedia, que abrange HTML 5, CSS 3, JavaScript, 
                             React e API. Recentemente, também finalizei o curso avançado de React com TypeScript na Udemy, 
-                            ministrado por Mathaus Fraga e sempre estou fazendo novos cursos para me aprimorar cada vez mais.
+                            ministrado por Matheus Fraga e sempre estou fazendo novos cursos para me aprimorar cada vez mais.
                         </p>
                         <p>
                             Estou animado para aplicar minhas habilidades em projetos desafiadores e contribuir para o mundo da tecnologia!

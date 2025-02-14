@@ -37,8 +37,8 @@ function Projetos() {
           ))}
           </div>
           <div className={styles.scroll}>
-            <button onClick={btnEsquerda}><FaAngleLeft/></button>
-            <button onClick={btnDireita}><FaAngleRight/></button>
+            <button className={styles.btn} onClick={btnEsquerda}><FaAngleLeft/></button>
+            <button className={styles.btn} onClick={btnDireita}><FaAngleRight/></button>
            </div>
         </div>
       </section>
