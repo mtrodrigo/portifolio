@@ -7,7 +7,7 @@ function Banner() {
         <section className={style.banner}>
             <div className={style.texto_container}>
                 <h1>HELLO WORD!</h1>
-                <h3>Bem vindo ao meu portifólio</h3>
+                <h3>Bem vindo ao meu portfólio</h3>
                 <h3>Rodrigo Marques Tavares</h3>
                 
             </div>

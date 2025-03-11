@@ -6,7 +6,6 @@ function Sobre() {
       <>
         <section className={style.sobre}>
             <div id='sobre' className={style.sobre_container}>
-                <h2>Um pouco sobre mim</h2>
                 <div className={style.img_text_container}> 
                     <div className={style.img_container}>
                         <img src={ImgSobre} alt="" />
