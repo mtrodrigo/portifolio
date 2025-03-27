@@ -1,11 +1,8 @@
-import Agencia from '/img/agencia.png'
-import AgenciaViagem from '/img/agencia_viagem.png'
 import Cardapio from '/img/cardapio_restaurant.png'
 import Calculadora from '/img/calculadora.png'
 import Frases from '/img/frases.png'
 import Idade from '/img/idade.png'
 import Cripto from '/img/cripto.png'
-import Gerenciador from '/img/gerenciador.png'
 import Shop from '/img/shop.png'
 
 const colProjetos = [
@@ -15,12 +12,7 @@ const colProjetos = [
         codigo: "https://github.com/mtrodrigo/shop.git",
         image: Shop, 
         descricao: "Projeto React + TypeScript que simula um e-comerce com consumo de API, uso de hooks useContext, useState e useEffect, e roteamento com react-router-dom."},
-    {
-        nome: "Gerenciador de Redes Sociais", 
-        site: "https://gerenciador-rc.vercel.app/", 
-        codigo: "https://github.com/mtrodrigo/gerenciador-rc.git",
-        image: Gerenciador, 
-        descricao: "Projeto desenvolvido e React + TypeScript gerenciando redes sociais, autenticação com senha e bancondo de dados atravez do FireBase."},
+
     {
         nome: "Cripto App", 
         site: "https://cripto-app-nine.vercel.app/", 
@@ -50,18 +42,6 @@ const colProjetos = [
         site: "https://cardapio-restaurant-five.vercel.app/", 
         codigo: "https://github.com/mtrodrigo/cardapio-restaurant", 
         image: Cardapio, 
-        descricao: "Projeto criado em React JS com uso de Hooks para filtrar os itens por categoria ou texto."},
-    {
-        nome: "Agência Design Digital", 
-        site: "https://agencia-design-m.vercel.app/", 
-        codigo: "https://github.com/mtrodrigo/agencia_design_M.git", 
-        image: Agencia, 
-        descricao:"Projeto criado em React JS com modo claro e modo escuro."},
-    {
-        nome: "Agencia de Viagem", 
-        site: "https://agencia-de-viagens-tau-two.vercel.app/", 
-        codigo: "https://github.com/mtrodrigo/Agencia-de-Viagens.git", 
-        image: AgenciaViagem, 
-        descricao: "Projeto criado e HTML e CSS com simulação de envio de dados para um servidor."},    
+        descricao: "Projeto criado em React JS com uso de Hooks para filtrar os itens por categoria ou texto."},    
 ]
 export default colProjetos
