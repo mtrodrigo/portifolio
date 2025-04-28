@@ -21,9 +21,8 @@ function Projetos() {
         <div className={styles.projetos_container}>  
           <div className={styles.projetos_titulo}>
             <h2>Projetos</h2>
-            <h4>Número de projetos postados: {colProjetos.length}</h4>
           </div>
-          <div className={styles.carrocel_container } ref={carrocel}>
+          <div className={styles.cards_display}>
           {colProjetos.map((projeto, index) => (
             <div key={index} className={styles.card}>
               <h4>{projeto.nome}</h4>
@@ -36,11 +35,7 @@ function Projetos() {
             </div>
           ))}
           </div>
-          <div className={styles.scroll}>
-            <button className={styles.btn} onClick={btnEsquerda}><FaAngleLeft/></button>
-            <button className={styles.btn} onClick={btnDireita}><FaAngleRight/></button>
-           </div>
-        </div>
+          </div>
       </section>
     )
   }
