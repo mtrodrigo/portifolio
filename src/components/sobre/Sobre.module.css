@@ -33,16 +33,20 @@
     border-radius: 50%;
 }
 .text_container{
-    width: 70%;
+    max-width: 60%;
 }
 .text_container p{
     text-align: justify;
     font-size: 20px;
     padding: 10px 0;
 }
-@media (max-width: 450px) {
+@media (max-width: 750px) {
     .img_text_container{
         flex-direction: column;
+        margin: 10px 0;
+    }
+    .text_container{
+        max-width: 90%;
     }
 
 }
